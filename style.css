@@ -1,0 +1,45 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: comic sans ms;
+  
+  background:#00ff97;
+}
+
+.text{
+  text-align: center;
+  height:100px;
+  background:blueviolet;
+}
+.text h1{
+  margin:0;
+  line-height: 100px;
+  color:#f8f8ff;
+  font-size: 48px;
+}
+ul{
+  margin:0;
+  padding:0;
+  background:#f00;
+  color:#f8f8ff;
+  display: flex;
+}
+ul li{
+  list-style: none;
+}
+ul li a{
+  text-decoration: none;
+  color:#f8f8ff;
+  padding:20px;
+  display: block;
+}
+section{
+  height:400px;
+  width:100%;
+}
+.sticky{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+}
